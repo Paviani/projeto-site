@@ -56,6 +56,16 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
+/* Estilos para a Imagem de Perfil */
+.profile-pic {
+  display: block; /* Garante que a imagem seja um bloco para aplicar margem auto */
+  margin: 0 auto 20px; /* Centraliza a imagem horizontalmente e adiciona margem inferior */
+  width: 150px; /* Largura fixa */
+  height: 150px; /* Altura fixa */
+  border-radius: 50%; /* Torna a imagem perfeitamente circular */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
+
 /* Estilização dos Artigos de Projeto */
 article {
   margin-bottom: 20px; /* Espaço abaixo de cada projeto */
